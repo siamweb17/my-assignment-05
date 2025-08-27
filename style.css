@@ -41,3 +41,16 @@ body {
   font-size: 14px;
   cursor: default;
 }
+
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #013223 0%, #187754 50%, #013223 100%);
+  color: white;
+}
+
+.hero-logo {
+  width: 80px;
+  margin-bottom: 10px;
+}
