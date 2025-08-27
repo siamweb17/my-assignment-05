@@ -264,9 +264,21 @@ body {
 }
 
 
+ 
+
+ 
+.nav-toggler {
+  display: none; 
+}
+
+
 @media (max-width: 768px) {
+  .nav-toggler {
+    display: block;  
+  }
+
   .navbar .right {
-    display: none; /* hide menu by default on mobile */
+    display: none; 
     flex-direction: column;
     gap: 10px;
     background: white;
@@ -278,11 +290,7 @@ body {
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   }
 
-  .nav-toggler {
-    display: block;
-  }
-
   .navbar.active .right {
-    display: flex; /* show menu when toggled */
+    display: flex;  
   }
 }
