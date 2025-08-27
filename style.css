@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f8fdf8;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background: white;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.navbar .left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .logo {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.site-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #0c513f;
+}
+
+.navbar .right {
+  display: flex;
+  gap: 10px;
+}
+
+.nav-btn {
+  background: #f1f1f1;
+  padding: 10px 10px 0px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: default;
+}
